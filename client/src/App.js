@@ -45,6 +45,7 @@ const App = () => {
           </Grid>
         </Container>
       </Grow>
+      <div className={classes.footer}>@Oliver Schwill</div>
     </Container>
   );
 };

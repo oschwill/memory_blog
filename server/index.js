@@ -19,6 +19,11 @@ app.use(cors());
 // Routing
 app.use('/posts', postRoutes); // localhost:5000/posts
 
+// Greeting Route
+app.get('/', (req, res) => {
+  res.send('Hallo memory blog app');
+});
+
 const CONNECTION_URL = process.env.CONNECTION_URL;
 const PORT = process.env.PORT || 5000;
 

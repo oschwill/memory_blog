@@ -20,4 +20,12 @@ export default makeStyles((theme) => ({
       flexDirection: 'column-reverse',
     },
   },
+  footer: {
+    marginTop: 'calc(15% + 90px)',
+    bottom: 0,
+    margin: 'auto',
+    width: '50%',
+    textAlign: 'center',
+    color: '#FFF',
+  },
 }));
